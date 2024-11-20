@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+class students {
+private
+int scores [5];
+public
+void input () {
+for (int i=0; i<5; ++ i) {
+cin>>scores[i];
+}
+}
+int calculateTotal score() const {
+int totalscore + = scores [i];
+}
+return totalscore;
+}
+};
+int main() {
+students student; cout<<"Enter sexam scores:";0student,input(); 
+
+cout<<" total score :"<<student calculate Totalscore() <<endl;
+return 0;
+}
