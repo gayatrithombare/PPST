@@ -1,0 +1,61 @@
+#include<iostream>
+using namespace std;
+class person{
+public:
+string name;
+int age;
+void getdata1 ()
+{
+cout<<" enter person name:"<<endl;
+cin>>name;
+cout<<"enter person age;"<<age<<ensl;
+}
+};
+class professor: public person
+{
+public:
+int no_of_publication,
+void getdata()
+{
+cout<<"enter proessor id:"<<endl;
+cin>>no_of_publication;
+}
+void putdata()
+}
+cout<<"professor id:"<<id;
+cout<<"number of professor's publication:"<<no_of_publication;
+}
+};
+class student: public person
+{
+private:
+int student_id;
+float percentang;
+public:
+void getdata()
+{
+cout<<"enter student id:";
+cin>>student_id;
+cout<<"enter student percentage:";
+cin>>percentage;
+}
+void putdata()
+{
+cout<<"student id:"<<student_id;
+cout<<"student percentage:"<<percentage;
+}
+};
+int main()
+}
+};
+professor p;
+p. getdata 1();
+p. getdata ();
+students;
+s. getdata();
+p. putadata();
+s. putdata();
+return 0;
+}
+
+
